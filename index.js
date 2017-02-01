@@ -60,9 +60,10 @@ function render()
 		if(image.style != null)
 		{
 			var variation = 1.0
-			if(image.id == 'logo') variation *= 0.4;
-			else if(image.id == 'quotationMark') variation *= 1.4;
-			else if(image.id == 'getIt') variation *= 0.5;
+			if     (image.id == 'logo') 					variation = 0.4;
+			else if(image.id == 'quotationMark') 			variation = 1.4;
+			else if(image.id == 'getIt') 					variation = 0.5;
+			else if(image.id == 'mc-embedded-subscribe') 	variation = 7.0;
 
 			var pulseAdded = 1.0 + pulseScale * variation;
 			image.style.transform = 'scale(' + pulseAdded + ',' + pulseAdded + ')'	
