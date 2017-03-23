@@ -1,0 +1,122 @@
+body {
+	font-family: sf-regular;
+	color: black;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background-color: white;
+	font-size: 20px;
+    -webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.wrapper {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+@font-face
+{
+	font-family: sf-light;
+	src: url(fonts/SF-UI-Text-Light.otf);		
+}
+
+@font-face
+{
+	font-family: sf-regular;
+	src: url(fonts/SF-UI-Text-Regular.otf);		
+}
+
+
+.title
+{
+	font-family: sf-light;
+	font-size: 45px;
+}
+
+.subtitle
+{
+	font-family: sf-light;
+	font-size: 34px;
+	line-height: 170%;
+}
+
+.sectionTd
+{
+	padding: : 15px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #183DA7
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+ul
+{
+	font-size: 15px;
+	margin-left: 15px;
+	padding: 0px;
+	list-style-type: none;
+	line-height: 180%
+}
+
+
+.pixelPerfect
+{
+
+	image-rendering: pixelated;
+	image-rendering: crisp-edges;
+}
+
+.character
+{
+	image-rendering: pixelated;
+	image-rendering: crisp-edges;
+}
+
+
+.links
+{
+	margin: auto;
+	width: 800px;
+	height: 80px;
+	align-items: center;
+	display: flex;
+}
+
+.section
+{
+	font-size: 32px;
+	width: 33%;
+	display: inline-block;
+}
+
+.centerDiv
+{
+	display: inline-block;
+	text-align: center;
+}
+
+
+.fullWidthImage
+{
+	width: 100%;
+}
