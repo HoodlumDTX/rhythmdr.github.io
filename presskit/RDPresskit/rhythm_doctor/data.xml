@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<game>
+	<title>Rhythm Doctor</title>
+	<release-dates>
+		<release-date>Q3 2017</release-date>
+	</release-dates>
+	<website>http://www.rhythmdr.com/</website>
+	<press-can-request-copy>TRUE</press-can-request-copy>
+
+	<platforms>
+		<platform>
+			<name>PC / Mac</name>
+			<link>http://www.rhythmdr.com/</link>
+		</platform>
+		<platform>
+			<name>Steam - Q3 2017</name>
+			<link>http://www.steampowered.com/</link>
+		</platform>
+		<platform>
+			<name>Apple App Store - Q3 2017</name>
+			<link>http://www.itunes.com/</link>
+		</platform>
+	</platforms>
+	
+	<prices>
+		<price>
+			<currency>USD</currency>
+			<value>TBD</value>
+		</price>
+		<price>
+			<currency>EUR</currency>
+			<value>TBD</value>
+		</price>
+		<price>
+			<currency>CAD</currency>
+			<value>TBD</value>
+		</price>				
+		<price>
+			<currency>GBP</currency>
+			<value>TBD</value>
+		</price>
+	</prices>
+
+	<description>
+Rhythm Doctor is the hardest one-button rhythm game out there. It's different from other rhythm games, in that all the music is composed specifically to match the level design, mechanics, and story. It is also a game where the player is expected to SLAM their spacebar, rather than just pressing it!
+	</description>
+	
+	<history>
+We won an IGF nomination for the game back in 2014, while we were still in school. We couldn't wait until we graduated so that we would be able to work full-time on it. Now that we've graduated, we're going full steam on development!
+
+Interview with Gamasutra:
+http://www.gamasutra.com/view/news/213064/Road_to_the_Student_IGF_Hafiz_Azman_on_Rhythm_Doctor.php
+	</history>
+
+	<features>
+		<feature>20+ handmade levels, each with their own story.</feature>
+		<feature>A large cast of doctors and patients feature in an epic overarching storyline.</feature>
+		<feature>Level editor included.</feature>
+		<feature>Play solo campaign or grab a friend for drop-in drop-out local multiplayer!</feature>
+		<feature>Blind mode, where the game can be played completely via audio cues only.</feature>
+		<feature>Challenge levels and New Game+ modes for the brave.</feature>
+		<feature>Full visual and audio calibration settings.</feature>
+	</features>
+	
+	<trailers>
+		<trailer>
+			<name>Greenlight Trailer</name>
+			<youtube>BaF2YFhLaok</youtube>
+		</trailer>
+		<trailer>
+			<name>Gameplay Overview</name>
+			<youtube>6cnYPPVbnBM</youtube>
+		</trailer>
+	</trailers>
+	
+	<awards>
+		<award>
+			<description>IGF Student Showcase Nominee</description>
+			<info>San Francisco GDC 2014</info>
+		</award>
+		<award>
+			<description>PC Gamers Top 50 Free Games of All Time</description>
+			<info>Award Ceremony, 4 December, 1991</info>
+		</award>
+	</awards>
+	
+	<quotes>
+		<quote>
+			<description>The base mechanic and premise of Rhythm Doctor are gold for me. Rhythm is in everything, and I'm glad the developers found it in medicine.</description>
+			<name>John Polson</name>
+			<website>IndieGames.com</website>
+			<link>http://indiegames.com/2012/12/rhythm_heaven_on_earth_in_the_.html</link>
+		</quote>
+		<quote>
+			<description>A genuine masterclass in rhythm game design.</description>
+			<name>Laura K Dale</name>
+			<website>IndieHaven</website>
+			<link>http://indiehaven.com/rhythm-doctor-a-genuine-masterclass-in-music-rhythm-design/</link>
+		</quote>
+		<quote>
+			<description>Even if you've checked it out before, please try this new build. It's deliciously difficult, and that's really what keeps me coming back.</description>
+			<name>Dale North</name>
+			<website>Destructoid</website>
+			<link>http://www.destructoid.com/have-you-played-rhythm-doctor--272553.phtml</link>
+		</quote>
+		<quote>
+			<description>A rad Rhythm Paradise-esque browser game (...) sadistically difficult.</description>
+			<name>Jeffrey Matulef</name>
+			<website>Eurogamer</website>
+			<link>http://www.eurogamer.net/articles/2013-01-02-rhythm-doctor-is-a-rad-rhythm-paradise-esque-browser-game</link>
+		</quote>
+	</quotes>
+	
+	<additionals>
+		<additional>
+			<title>Original Soundtrack</title>
+			<description>Some of the music, uploaded as we go along.</description>
+			<link>http://soundcloud.com/fizzd</link>
+		</additional>
+	</additionals>
+	
+	<credits>
+		<credit>
+			<person>Hafiz Azman</person>
+			<role>Game Design, Programming, Music</role>
+		</credit>
+		<credit>
+			<person>Winston Lee</person>
+			<role>Artist</role>
+		</credit>
+		<credit>
+			<person>Giacomo Preciado</person>
+			<website>www.kyrie.pe</website>
+			<role>Programming</role>
+		</credit>
+		<credit>
+			<person>Alberto Gonzalez</person>
+			<role>Additional Programming</role>
+		</credit>
+	</credits>
+
+	<contacts>
+		<contact>
+			<name>Twitter</name>
+			<link>https://twitter.com/RhythmDrGame</link>
+		</contact>
+		<contact>
+			<name>Facebook</name>
+			<link>https://facebook.com/rhythmdrgame</link>
+		</contact>
+		<contact>
+			<name>Website</name>
+			<link>http://rhythmdr.com</link>
+		</contact>
+	</contacts>
+
+</game>
