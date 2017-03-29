@@ -43,24 +43,26 @@
 	</prices>
 
 	<description>
-Rhythm Doctor is the hardest one-button rhythm game out there. It's different from other rhythm games, in that all the music is composed specifically to match the level design, mechanics, and story. It is also a game where the player is expected to SLAM their spacebar, rather than just pressing it!
+Rhythm Doctor is a one-button rhythm game that aims to invisibly teach complex music and rhythm theory.
+
+The core mechanic is simple: slam your spacebar on the 7th beat to save patients in a hospital. But every level has a twist on that concept: polyrhythms, offbeats, hemiolas, irregular time signatures.. if those don’t mean much to you, don’t worry - it’s designed to make you learn rhythm theory without even realising it.
+
+The simple one-button control scheme is balanced with brutally hard precision down to milliseconds, making saving every patient a challenge.
 	</description>
 	
 	<history>
-We won an IGF nomination for the game back in 2014, while we were still in school. We couldn't wait until we graduated so that we would be able to work full-time on it. Now that we've graduated, we're going full steam on development!
-
-Interview with Gamasutra:
-http://www.gamasutra.com/view/news/213064/Road_to_the_Student_IGF_Hafiz_Azman_on_Rhythm_Doctor.php
+Two friends learnt game development solely driven by this game idea, while studying Engineering and Actuarial Science at university. They then won an IGF nomination for the game back in 2014, while they were still in school. The response was overwhelming, with the online demo game being played more than 400,000 times. Now that they've finally graduated, they've expanded their team and are going full steam on development to finish this game. As of 29th March 2017, their game has been Greenlighted on Steam and will be released later this year.
 	</history>
 
 	<features>
 		<feature>20+ handmade levels, each with their own story.</feature>
+		<feature>Every level introduces a different concept of rhythm theory in an accessible way.</feature>
 		<feature>A large cast of doctors and patients feature in an epic overarching storyline.</feature>
-		<feature>Level editor included.</feature>
-		<feature>Play solo campaign or grab a friend for drop-in drop-out local multiplayer!</feature>
+		<feature>Play solo campaign or grab a friend for drop-in drop-out local multiplayer throughout the whole campaign!</feature>
 		<feature>Blind mode, where the game can be played completely via audio cues only.</feature>
 		<feature>Challenge levels and New Game+ modes for the brave.</feature>
 		<feature>Full visual and audio calibration settings.</feature>
+		<feature>A millisecond-precise rhythm engine, tested and tweaked over hundreds of hours.</feature>
 	</features>
 	
 	<trailers>
@@ -80,8 +82,12 @@ http://www.gamasutra.com/view/news/213064/Road_to_the_Student_IGF_Hafiz_Azman_on
 			<info>San Francisco GDC 2014</info>
 		</award>
 		<award>
-			<description>PC Gamers Top 50 Free Games of All Time</description>
-			<info>Award Ceremony, 4 December, 1991</info>
+			<description>PC Gamers' Top 50 Free Games of All Time</description>
+			<info>PC Gamer, 2016</info>
+		</award>
+		<award>
+			<description>$15000 Government Grant Recepient</description>
+			<info>Intellectual Property Creators Challenge (IPCC), Malaysia, 2015</info>
 		</award>
 	</awards>
 	
@@ -114,12 +120,31 @@ http://www.gamasutra.com/view/news/213064/Road_to_the_Student_IGF_Hafiz_Azman_on
 	
 	<additionals>
 		<additional>
+			<title>Gamasutra Interview</title>
+			<description>Interview we gave in 2014 regarding our IGF nomination.</description>
+			<link>http://www.gamasutra.com/view/news/213064/Road_to_the_Student_IGF_Hafiz_Azman_on_Rhythm_Doctor.php</link>
+		</additional>
+		<additional>
 			<title>Original Soundtrack</title>
 			<description>Some of the music, uploaded as we go along.</description>
 			<link>http://soundcloud.com/fizzd</link>
 		</additional>
+		<additional>
+			<title>Rhythm Doctor Browser Demo</title>
+			<description>Our online browser demo.</description>
+			<link>http://fizzd.itch.io/rhythm-doctor</link>
+		</additional>
+		<additional>
+			<title>Rhythm Doctor Greenlight Page</title>
+			<description>Our Greenlight page (we were greenlit 28th March 2017)</description>
+			<link>http://steamcommunity.com/sharedfiles/filedetails/?id=886344577</link>
+		</additional>
 	</additionals>
-	
+
+ <widgets>
+  <itch>5852</itch>
+</widgets>
+
 	<credits>
 		<credit>
 			<person>Hafiz Azman</person>

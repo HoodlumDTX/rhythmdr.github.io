@@ -4,8 +4,8 @@
 	<founding-date>June 1, 2011</founding-date>
 	<website>http://www.rhythmdr.com/</website>
 	<based-in>Malaysia, Peru</based-in>
-	<phone>123456-7</phone>
 	<press-contact>hafiz.azman@cantab.net</press-contact>
+	<phone>01023230</phone>
 
 	<socials>
 		<social>
@@ -19,23 +19,17 @@
 	</socials>
 
 	<description>	
-		We make one-button rhythm games!
+		We make hardcore one-button rhythm games!
 	</description>
 		
 	<histories>
 		<history>
 			<header>Early history</header>
-			<text>Two childhood friends and Malaysians, Hafiz Azman and Winston Lee, decided to make a little Flash game in the summer of 2011 while studying in university in the UK. It was their first time doing game development, and every summer and winter holiday from that point on was spent on this game. During the Christmas holidays of 2012 they finally released an early demo on TIGSource in a thread called 'Rhythm Doctor - a tough-as-nails rhythm game!'. To their surprise it was well-received! On a whim they decided to enter it for the IGFs the following year. To their (bigger) surprise they were selected! That was the year they set foot on US soil for the first time.</text>
+			<text>Two childhood friends and Malaysians, Hafiz Azman and Winston Lee, decided to make a little Flash game in the summer of 2011 while studying in university in the UK. It was their first time doing game development, driven solely by this game idea, and every summer and winter holiday from that point on was spent on this game. During the Christmas holidays of 2012 they finally released an early demo on TIGSource in a thread called 'Rhythm Doctor - a tough-as-nails rhythm game!'. To their surprise it was well-received! On a whim they decided to enter it for the IGFs the following year. To their (bigger) surprise they were selected! That was the year they set foot on US soil for the first time.</text>
 		</history>
 		<history>
 			<header></header>
 			<text>At GDC, they met Giacomo Preciado, a programmer from Peru, and he joined as 7th Beat Games' third member. Today after graduation, the three work on the game from their respective home countries.</text>
-		</history>
-		<history>
-			<header>Interview with Gamasutra:</header>
-			<text>
-			http://www.gamasutra.com/view/news/213064/Road_to_the_Student_IGF_Hafiz_Azman_on_Rhythm_Doctor.php
-		</text>
 		</history>
 	</histories>
 		
@@ -56,12 +50,16 @@
 			<info>San Francisco GDC 2014</info>
 		</award>
 		<award>
-			<description>PC Gamers Top 50 Free Games of All Time</description>
-			<info>Award Ceremony, 4 December, 1991</info>
+			<description>PC Gamers' Top 50 Free Games of All Time</description>
+			<info>PC Gamer, 2016</info>
 		</award>
 		<award>
 			<description>Dare to be Digital 2015 Nominee</description>
 			<info>Dundee, UK, 2015</info>
+		</award>
+		<award>
+			<description>$15000 Government Grant Recepient</description>
+			<info>Intellectual Property Creators Challenge (IPCC), Malaysia, 2015</info>
 		</award>
 	</awards>
 	
@@ -99,13 +97,20 @@
 																			 	non-commercial (no monetization allowed),
 																			 	monetize (full permission) -->	
 	
-	<!---<additionals>
+	<additionals>
 		<additional>
-			<title>Company Link #1</title>
-			<description>This link is a link that might be useful. You can check it out at</description>
-			<link>http://somemusicsite.com/thislink</link>
+			<title>Rhythm Doctor Browser Demo</title>
+			<description></description>
+			<link>http://fizzd.itch.io/rhythm-doctor</link>
 		</additional>
-			</additionals> -->
+				<additional>
+			<title>Rhythm Doctor Greenlight Page</title>
+			<description></description>
+			<link>http://steamcommunity.com/sharedfiles/filedetails/?id=886344577</link>
+		</additional>
+	</additionals>
+
+
 	<credits>
 		<credit>
 			<person>Hafiz Azman</person>
