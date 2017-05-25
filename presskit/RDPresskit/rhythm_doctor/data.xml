@@ -51,7 +51,7 @@ The simple one-button control scheme is balanced with brutally hard precision do
 	</description>
 	
 	<history>
-Two friends learnt game development solely driven by a game idea, while studying Engineering and Actuarial Science at university. The idea came about while the game designer was getting his Diploma in Music and studying music theory. They released a demo and won an IGF nomination for the game back in 2014, while they were still in school. The response was overwhelming, with the online demo game being played more than 400,000 times. Now that they've finally graduated, they've expanded their team and are going full steam on development to finish this game. As of 29th March 2017, their game has been Greenlighted on Steam and will be released later this year.
+Two friends learnt game development solely driven by a game idea, while studying Engineering and Actuarial Science at the University of Cambridge. The idea came about while the game designer was getting his Diploma in Music and studying music theory. They released a demo and won an IGF nomination for the game back in 2014, while they were still in school. The response was overwhelming, with the online demo game being played more than 400,000 times. Now that they've finally graduated, they've expanded their team and are going full steam on development to finish this game. As of 29th March 2017, their game has been Greenlighted on Steam and will be released later this year.
 	</history>
 
 	<features>
@@ -88,6 +88,15 @@ Two friends learnt game development solely driven by a game idea, while studying
 		<award>
 			<description>$15000 Government Grant Recepient</description>
 			<info>Intellectual Property Creators Challenge (IPCC), Malaysia, 2015</info>
+		</award>
+		<award>
+			<description>$6500 Peru Startup Government Grant Recepient</description>
+			<info>Peru, 2017</info>
+		</award>
+		<award>
+			<description>Indie Prize Best Audio</description>
+			<info>Casual Connect, Singapore, 2017</info>
+			<link>http://indieprize.org/asia2017/#home</link>
 		</award>
 	</awards>
 	
