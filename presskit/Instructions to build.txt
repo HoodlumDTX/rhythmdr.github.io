@@ -3,3 +3,5 @@ Instructions to build
 1. open terminal
 2. go to the RDPresskit folder
 3. presskit build -o ../
+
+^ remember the ../ omg
