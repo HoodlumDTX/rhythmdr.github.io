@@ -1,0 +1,17 @@
+{
+	"8" :
+	{
+		"locked": false,
+		"url" : "http://www.rhythmdr.com",
+		"showCustomMessage" : true,
+		"customMessage" : 
+		{
+			"default" : "Hey", 
+			"ChineseTraditional" : "Please test our game at rhythmdr.com!",
+			"Spanish" : "Please test our game at rhythmdr.com!",
+			"English" : "Please test our game at rhythmdr.com!",
+			"Korean" : "Please test our game at rhythmdr.com!",
+			"Japanese" : "Please test our game at rhythmdr.com!"
+		},
+	}
+}
