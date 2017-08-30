@@ -2,8 +2,8 @@
 	"10" :
 	{
 		"locked": false,
-		"url" : "http://www.rhythmdr.com",
-		"showCustomMessage" : true,
+		"url" : "",
+		"showCustomMessage" : false,
 		"customMessage" : 
 		{
 			"ChineseTraditional" : "Please test our game at rhythmdr.com! ChineseSimp!!",
