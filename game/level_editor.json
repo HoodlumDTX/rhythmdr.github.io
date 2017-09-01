@@ -13,5 +13,14 @@
 			"Korean" : "Please test our game at rhythmdr.com! Korean!!",
 			"Japanese" : "Please test our game at rhythmdr.com! Japanese!!"
 		},
+	},
+
+	"11" :
+	{
+		"locked": false,
+		"url" : "",
+		"showCustomMessage" : false,
+		"customMessage" : {},
 	}
+
 }
