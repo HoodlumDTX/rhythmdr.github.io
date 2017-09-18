@@ -1,0 +1,112 @@
+[
+	{
+		"title": "0",
+		"tags": "",
+		"body": "You must be the new intern.\nWorking from home eh?\nWell, don't be mistaken, it's still not going to be easy.\nThis is still med school after all.",
+		"position": {
+			"x": 53,
+			"y": 55
+		},
+		"colorID": 0
+	},
+	{
+		"title": "01",
+		"tags": "",
+		"body": "Alright, we'll take things slow.\nHah!\nHere's your first patient. Good luck!",
+		"position": {
+			"x": 466,
+			"y": 73
+		},
+		"colorID": 0
+	},
+	{
+		"title": "1 Miss",
+		"tags": "",
+		"body": "Almost!\nTry drumming on the back of your phone with your fingers. It helps your timing!",
+		"position": {
+			"x": 930,
+			"y": 108
+		},
+		"colorID": 6
+	},
+	{
+		"title": "1 Perfect",
+		"tags": "",
+		"body": "Oh, look at you.\nYou clearly know how to do this already.\nCongratulations.",
+		"position": {
+			"x": 939,
+			"y": 525
+		},
+		"colorID": 0
+	},
+	{
+		"title": "2",
+		"tags": "",
+		"body": "Good. Now do it again.",
+		"position": {
+			"x": 1163,
+			"y": 15
+		},
+		"colorID": 6
+	},
+	{
+		"title": "4",
+		"tags": "",
+		"body": "That's it. One more time, without cues.",
+		"position": {
+			"x": 1181,
+			"y": 330
+		},
+		"colorID": 0
+	},
+	{
+		"title": "5",
+		"tags": "",
+		"body": "Alright. You've got the hang of it.\nYour first patient is waiting outside.\nHe's got quite the heart rate...\n(If you feel the calibration on your device is off..\nYou can change it by clicking the gear icon in the pause menu!)\nWell, good luck.",
+		"position": {
+			"x": 1188,
+			"y": 531
+		},
+		"colorID": 0
+	},
+	{
+		"title": "1 No Input",
+		"tags": "",
+		"body": "Oh dear.\nRemember to tap the screen on the SEVENTH BEAT.",
+		"position": {
+			"x": 936,
+			"y": 315
+		},
+		"colorID": 0
+	},
+	{
+		"title": "0 No Input",
+		"tags": "",
+		"body": "Oh, tap the screen to advance the text.\nThere we go.\nYou really should know that kind of thing already.",
+		"position": {
+			"x": 256,
+			"y": 66
+		},
+		"colorID": 0
+	},
+	{
+		"title": "01 Nurse",
+		"tags": "",
+		"body": "(Excuse the nurse, she's Chinese.)\n",
+		"position": {
+			"x": 693,
+			"y": 95
+		},
+		"colorID": 0
+	},
+	{
+		"title": "3",
+		"tags": "",
+		"body": "Excellent, keep going.",
+		"position": {
+			"x": 1196,
+			"y": 155
+		},
+		"colorID": 0
+	}
+]

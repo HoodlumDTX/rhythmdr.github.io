@@ -1,0 +1,102 @@
+[
+	{
+		"title": "0",
+		"tags": "",
+		"body": "Oh~!\nYou're still here!\nOh well.",
+		"position": {
+			"x": 2,
+			"y": 66
+		},
+		"colorID": 0
+	},
+	{
+		"title": "01",
+		"tags": "",
+		"body": "Today you'll get a new kind of patient.\nSome patients come to us with this problem you see.\nTheir heart skips a beat.\nSo catch it while they're still in reach.\nJust count the numbers in your head\nand hit it on the seventh beat.",
+		"position": {
+			"x": 321,
+			"y": 71
+		},
+		"colorID": 0
+	},
+	{
+		"title": "1 Miss",
+		"tags": "",
+		"body": "Aah, almost!\nIf you're having trouble, try tapping out the ghost beats.",
+		"position": {
+			"x": 609,
+			"y": 72
+		},
+		"colorID": 6
+	},
+	{
+		"title": "2",
+		"tags": "",
+		"body": "Yuh-huh.",
+		"position": {
+			"x": 854,
+			"y": 82
+		},
+		"colorID": 6
+	},
+	{
+		"title": "3",
+		"tags": "",
+		"body": "Oh yes.",
+		"position": {
+			"x": 1092,
+			"y": 80
+		},
+		"colorID": 0
+	},
+	{
+		"title": "5",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 1101,
+			"y": 567
+		},
+		"colorID": 0
+	},
+	{
+		"title": "1 No Input",
+		"tags": "",
+		"body": "Oh dear.\nRemember to hit the spacebar on the SEVENTH BEAT.",
+		"position": {
+			"x": 615,
+			"y": 315
+		},
+		"colorID": 0
+	},
+	{
+		"title": "01 Nurse",
+		"tags": "",
+		"body": "(Excuse the nurse, she's Chinese.)\n",
+		"position": {
+			"x": 335,
+			"y": 313
+		},
+		"colorID": 0
+	},
+	{
+		"title": "4",
+		"tags": "",
+		"body": "One more.",
+		"position": {
+			"x": 1098,
+			"y": 327
+		},
+		"colorID": 0
+	},
+	{
+		"title": "1 Perfect",
+		"tags": "",
+		"body": "Wow, you're a natural.",
+		"position": {
+			"x": 623,
+			"y": 540
+		},
+		"colorID": 0
+	}
+]

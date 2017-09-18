@@ -1,0 +1,172 @@
+[
+	{
+		"title": "NoMusic",
+		"tags": "",
+		"body": "Wow you've come far.\nA Tier 3 Rhythm Doctor eh? \n",
+		"position": {
+			"x": 53,
+			"y": 55
+		},
+		"colorID": 0
+	},
+	{
+		"title": "OnMusic",
+		"tags": "",
+		"body": "Today you're in the <color=red>Supraventricular Tachycardia</color> ward.\nPatients here have <color=#03EBF5>two</color> beats instead of seven.\n The nurse will cue you in. \nHere we go.",
+		"position": {
+			"x": 466,
+			"y": 73
+		},
+		"colorID": 0
+	},
+		{
+		"title": "Nurse",
+		"tags": "",
+		"body": "(She's picked up English now.)",
+		"position": {
+			"x": 693,
+			"y": 95
+		},
+		"colorID": 0
+	},
+	{
+		"title": "FirstMiss",
+		"tags": "",
+		"body": "Remember to hit that spacebar <color=#03EBF5>HARD</color> and listen to the clack!",
+		"position": {
+			"x": 930,
+			"y": 108
+		},
+		"colorID": 6
+	},
+		{
+		"title": "FirstMissCompletely",
+		"tags": "",
+		"body": "Remember to follow the nurse's 'get' and 'set'.",
+		"position": {
+			"x": 930,
+			"y": 108
+		},
+		"colorID": 6
+	},
+			{
+		"title": "FirstMissAfterMissCompletely",
+		"tags": "",
+		"body": "You're closer now. Just hit HARD, and listen to your spacebar's mighty CLACK.",
+		"position": {
+			"x": 930,
+			"y": 108
+		},
+		"colorID": 6
+	},
+	{
+		"title": "FirstHitPerfect",
+		"tags": "",
+		"body": "Wow first time.",
+		"position": {
+			"x": 939,
+			"y": 525
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Phase1.1Hit",
+		"tags": "",
+		"body": "Good.",
+		"position": {
+			"x": 1163,
+			"y": 15
+		},
+		"colorID": 6
+	},
+		{
+		"title": "Phase1.2Hit",
+		"tags": "",
+		"body": "Great.",
+		"position": {
+			"x": 1163,
+			"y": 15
+		},
+		"colorID": 6
+	},
+		{
+		"title": "Phase1.3Hit",
+		"tags": "",
+		"body": "Perfect.",
+		"position": {
+			"x": 1163,
+			"y": 15
+		},
+		"colorID": 6
+	},
+			{
+		"title": "Phase1.4Hit",
+		"tags": "",
+		"body": "Superb.",
+		"position": {
+			"x": 1163,
+			"y": 15
+		},
+		"colorID": 6
+	},
+			{
+		"title": "Phase1.5Hit",
+		"tags": "",
+		"body": "Ooh!",
+		"position": {
+			"x": 1163,
+			"y": 15
+		},
+		"colorID": 6
+	},
+	{
+		"title": "Interlude1",
+		"tags": "",
+		"body": "OK.\nNow you should learn how to deal with attacks.\nWhen SVT patients have attacks, their heart rate <color=#FF0000>doubles</color>.\nAnd when they stabilise, it <color=#03EBF5>halves</color>.\nThe nurse will see changes coming.\n And she will warn you with a <color=#03EBF5>faster cue</color>.\n Here we go!",
+		"position": {
+			"x": 1188,
+			"y": 531
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Phase2.1Hit",
+		"tags": "",
+		"body": "Nice transitions.",
+		"position": {
+			"x": 936,
+			"y": 315
+		},
+		"colorID": 0
+	},
+		{
+		"title": "Phase2MissAlmost",
+		"tags": "",
+		"body": "Ah! You almost had it.",
+		"position": {
+			"x": 936,
+			"y": 315
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Interlude2",
+		"tags": "",
+		"body": "Smooth~\nYou've got it down.\nOur next patient has caffeine-induced SVT.\nIt's our job here to wean him off his coffee.\nYou just need keep him stabilised him through the attacks.\nLet's hope the wifi holds up this time.\nGood luck.",
+		"position": {
+			"x": 256,
+			"y": 66
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Interlude2NoMisses",
+		"tags": "",
+		"body": "Hm..\n...Not a single mistimed hit.\nUm.. \nOK.. \nVery.. well done.\nOur next patient has caffeine-induced SVT.\nJust need keep him stabilised him through the attacks.\nLet's hope the wifi holds up this time.\n..Or maybe you'd prefer the challenge if it didn't.\n ...",
+		"position": {
+			"x": 256,
+			"y": 66
+		},
+		"colorID": 0
+	}
+]
