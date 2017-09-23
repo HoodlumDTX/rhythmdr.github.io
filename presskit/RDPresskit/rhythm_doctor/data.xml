@@ -3,7 +3,7 @@
 <game>
 	<title>Rhythm Doctor</title>
 	<release-dates>
-		<release-date>Q3 2017</release-date>
+		<release-date>Q1 2018</release-date>
 	</release-dates>
 	<website>http://www.rhythmdr.com/</website>
 	<press-can-request-copy>TRUE</press-can-request-copy>
@@ -14,11 +14,11 @@
 			<link>http://www.rhythmdr.com/</link>
 		</platform>
 		<platform>
-			<name>Steam - Q3 2017</name>
+			<name>Steam - Q1 2018</name>
 			<link>http://www.steampowered.com/</link>
 		</platform>
 		<platform>
-			<name>Apple App Store - Q3 2017</name>
+			<name>Apple App Store - Q1 2018</name>
 			<link>http://www.itunes.com/</link>
 		</platform>
 	</platforms>
@@ -78,8 +78,16 @@ Two friends learnt game development solely driven by a game idea, while studying
 	
 	<awards>
 		<award>
+			<description>IndieCade LA Finalist</description>
+			<info>IndieCade LA, 2017</info>
+		</award>
+		<award>
+			<description>BICFest Best Audio Winner</description>
+			<info>South Korea, 2017</info>
+		</award>
+		<award>
 			<description>IGF Student Showcase Nominee</description>
-			<info>San Francisco GDC 2014</info>
+			<info>San Francisco GDC, 2014</info>
 		</award>
 		<award>
 			<description>PC Gamers' Top 50 Free Games of All Time</description>
