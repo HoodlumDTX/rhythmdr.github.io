@@ -3,7 +3,7 @@
 <game>
 	<title>Rhythm Doctor</title>
 	<release-dates>
-		<release-date>Q1 2018</release-date>
+		<release-date>Q1/Q2 2018</release-date>
 	</release-dates>
 	<website>http://www.rhythmdr.com/</website>
 	<press-can-request-copy>TRUE</press-can-request-copy>
@@ -14,11 +14,15 @@
 			<link>http://www.rhythmdr.com/</link>
 		</platform>
 		<platform>
-			<name>Steam - Q1 2018</name>
+			<name>Steam - Q1/Q2 2018</name>
 			<link>http://www.steampowered.com/</link>
 		</platform>
 		<platform>
-			<name>Apple App Store - Q1 2018</name>
+			<name>Apple iOS - 2018</name>
+			<link>http://www.itunes.com/</link>
+		</platform>
+		<platform>
+			<name>Android - 2018</name>
 			<link>http://www.itunes.com/</link>
 		</platform>
 	</platforms>
@@ -45,13 +49,11 @@
 	<description>
 Rhythm Doctor is a one-button rhythm game that aims to invisibly teach complex music and rhythm theory.
 
-The core mechanic is simple: slam your spacebar on the 7th beat to save patients in a hospital. But every level has a twist on that concept: polyrhythms, offbeats, hemiolas, irregular time signatures.. if those don’t mean much to you, don’t worry - it’s designed to make you learn rhythm theory without even realising it.
-
-The simple one-button control scheme is balanced with brutally hard precision down to milliseconds, making saving every patient a challenge.
+The core mechanic is simple: slam your spacebar on the 7th beat to save patients in a hospital. But every level has a twist on that concept: polyrhythms, offbeats, hemiolas, irregular time signatures.. if those don’t mean much to you, don’t worry - it’s designed to make you learn rhythm theory without even realising it! 
 	</description>
 	
 	<history>
-Two friends learnt game development solely driven by a game idea, while studying Engineering and Actuarial Science at the University of Cambridge. The idea came about while the game designer was getting his Diploma in Music and studying music theory. They released a demo and won an IGF nomination for the game back in 2014, while they were still in school. The response was overwhelming, with the online demo game being played more than 400,000 times. Now that they've finally graduated, they've expanded their team and are going full steam on development to finish this game. As of 29th March 2017, their game has been Greenlighted on Steam and will be released later this year.
+Two friends, Hafiz Azman and Winston Lee, learnt game development solely driven by one game idea, while studying Engineering and Actuarial Science at the University of Cambridge. At the time the game designer had been finishing his Diploma in Music programme, and the idea was of a game that would be able to teach complex music theory concepts invisibly. They released a demo and won an IGF nomination for the game back in 2014, while they were still in school. The response was overwhelming, with the online demo game being played more than 400,000 times. Now that they've graduated, they've expanded their team and are full-time on development to finish this game. Their game was Greenlit in March 2017 will be released in 2018.
 	</history>
 
 	<features>
@@ -59,6 +61,7 @@ Two friends learnt game development solely driven by a game idea, while studying
 		<feature>Every level introduces a different concept of rhythm theory in an accessible way.</feature>
 		<feature>A large cast of doctors and patients feature in an epic overarching storyline.</feature>
 		<feature>Play solo campaign or grab a friend for drop-in drop-out local multiplayer throughout the whole campaign!</feature>
+		<feature>Robust level editor with more than 400 community-made levels to play and learn from. Use your own music, place notes snapped to the beat, and use 50+ different visual effects and backgrounds.</feature>
 		<feature>Blind mode, where the game can be played completely via audio cues only.</feature>
 		<feature>Challenge levels and New Game+ modes for the brave.</feature>
 		<feature>Full visual and audio calibration settings.</feature>
@@ -86,6 +89,11 @@ Two friends learnt game development solely driven by a game idea, while studying
 			<info>South Korea, 2017</info>
 		</award>
 		<award>
+			<description>Indie Prize: Best Audio Award</description>
+			<info>Casual Connect, Singapore, May 2017</info>
+			<link>http://indieprize.org/asia2017/#home</link>
+		</award>
+		<award>
 			<description>IGF Student Showcase Nominee</description>
 			<info>San Francisco GDC, 2014</info>
 		</award>
@@ -94,17 +102,12 @@ Two friends learnt game development solely driven by a game idea, while studying
 			<info>PC Gamer, 2016</info>
 		</award>
 		<award>
-			<description>$15000 Government Grant Recepient</description>
+			<description>Government Grant Recepient</description>
 			<info>Intellectual Property Creators Challenge (IPCC), Malaysia, 2015</info>
 		</award>
 		<award>
-			<description>$6500 Peru Startup Government Grant Recepient</description>
+			<description>Peru Startup Government Grant Recepient</description>
 			<info>Peru, 2017</info>
-		</award>
-		<award>
-			<description>Indie Prize: Best Audio Award</description>
-			<info>Casual Connect, Singapore, May 2017</info>
-			<link>http://indieprize.org/asia2017/#home</link>
 		</award>
 	</awards>
 	

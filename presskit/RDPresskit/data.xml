@@ -25,11 +25,12 @@
 	<histories>
 		<history>
 			<header>Early history</header>
-			<text>Two childhood friends and Malaysians, Hafiz Azman and Winston Lee, decided to make a little Flash game in the summer of 2011 while studying in university in the UK. It was their first time doing game development, driven solely by this game idea, and every summer and winter holiday from that point on was spent on this game. During the Christmas holidays of 2012 they finally released an early demo on TIGSource in a thread called 'Rhythm Doctor - a tough-as-nails rhythm game!'. To their surprise it was well-received! On a whim they decided to enter it for the IGFs the following year. To their (bigger) surprise they were selected! That was the year they set foot on US soil for the first time.</text>
+			<text>
+Two friends, Hafiz Azman and Winston Lee, learnt game development solely driven by one game idea, while studying Engineering and Actuarial Science at the University of Cambridge. At the time the game designer had been finishing his Diploma in Music programme, and the idea was of a game that would be able to teach complex music theory concepts invisibly. They released a demo of 'Rhythm Doctor' and won a Student IGF nomination for the game in 2014. The response was overwhelming, with the online demo  being played more than 500,000 times. That was the year they set foot in the US for the first time.</text>
 		</history>
 		<history>
 			<header></header>
-			<text>At GDC, they met Giacomo Preciado, a programmer from Peru, and he joined as 7th Beat Games' third member. Today after graduation, the three work on the game from their respective home countries.</text>
+			<text>At GDC, they met Giacomo Preciado, a programmer from Peru, and he joined as 7th Beat Games' third member. Today after graduation, the three work on the game from their respective home countries. </text>
 		</history>
 	</histories>
 		
@@ -46,20 +47,37 @@
 	
 	<awards>
 		<award>
+			<description>IndieCade LA Finalist</description>
+			<info>IndieCade LA, 2017</info>
+		</award>
+		<award>
+			<description>BICFest Best Audio Winner</description>
+			<info>South Korea, 2017</info>
+		</award>
+		<award>
+			<description>Indie Prize: Best Audio Award</description>
+			<info>Casual Connect, Singapore, May 2017</info>
+			<link>http://indieprize.org/asia2017/#home</link>
+		</award>
+		<award>
 			<description>IGF Student Showcase Nominee</description>
-			<info>San Francisco GDC 2014</info>
+			<info>San Francisco GDC, 2014</info>
 		</award>
 		<award>
 			<description>PC Gamers' Top 50 Free Games of All Time</description>
 			<info>PC Gamer, 2016</info>
 		</award>
 		<award>
-			<description>Dare to be Digital 2015 Nominee</description>
-			<info>Dundee, UK, 2015</info>
+			<description>Government Grant Recepient</description>
+			<info>Intellectual Property Creators Challenge (IPCC), Malaysia, 2015</info>
 		</award>
 		<award>
-			<description>$15000 Government Grant Recepient</description>
-			<info>Intellectual Property Creators Challenge (IPCC), Malaysia, 2015</info>
+			<description>Peru Startup Government Grant Recepient</description>
+			<info>Peru, 2017</info>
+		</award>
+		<award>
+			<description>Dare to be Digital 2015 Nominee</description>
+			<info>Dundee, UK, 2015</info>
 		</award>
 	</awards>
 	
