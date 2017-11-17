@@ -1,7 +1,25 @@
 Instructions to build
 
-1. open terminal
-2. go to the RDPresskit folder
-3. presskit build -o ../
+0. change the “data.xml” files in Notepad or an xml editor. Do NOT change the html directly!
+	The html will get auto-generated when the rest of the steps are carried out.
 
-^ remember the ../ omg
+0. Note that there are two presskits, one for 7th beat games, one for Rhythm Doctor.
+After you modify the xml…
+
+1. open terminal or cmd
+
+2. go to this RDPresskit folder
+ (cd C:/Users/somethingsomething/rhythmdr.io/RDPresskit)
+
+3. type:
+ 	presskit build -o ../
+
+^ remember the ../ or it wont work!
+
+You should see a long many lines of processing in the console. 
+
+4. Check out the newly generated index.html on a web browser.
+
+5. If that looks good, use Github to sync it to the online version. And then when you load rhythmdr.com and click presskit, it should be all new
+————
+if you have trouble just let me know on discord! it can be confusing for sure
