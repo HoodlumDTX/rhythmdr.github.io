@@ -18,6 +18,11 @@ body {
 }
 
 
+.yellowLink {
+	color: yellow;
+    text-decoration: none; 
+}
+
 
 .pixelPerfect
 {
