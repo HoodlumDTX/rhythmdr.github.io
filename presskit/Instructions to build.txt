@@ -1,4 +1,23 @@
 Instructions to build
+---------------------
+
+check this video tutorial too that does Part A and B! 
+https://drive.google.com/open?id=1SRXx4fw9ivqkbKhXQWRO_QgtrV0joR0e
+
+A. install presskit (this has to be done once)
+----------------------------------------------
+
+1. Go to https://nodejs.org/en/
+2. Click on the green button to download Node.js that says "Recommended For Most Users"
+3. Open the downloaded file and go through the installation process.
+4. Open Command Prompt by opening the Start Menu -> type "cmd" -> it should appear on the search results -> hit Enter.
+5. type this and then hit Enter: 
+	npm install -g presskit
+6. Done! You don't have to go through this anymore, just go through the B. part steps if you want to rebuild the presskit.
+
+
+B: Build presskit (this has to be done every time you modify any of the data.xml files)
+---------------------------------------------------------------------------------------
 
 0. change the “data.xml” files in Notepad or an xml editor. Do NOT change the html directly!
 	The html will get auto-generated when the rest of the steps are carried out.
@@ -6,10 +25,10 @@ Instructions to build
 0. Note that there are two presskits, one for 7th beat games, one for Rhythm Doctor.
 After you modify the xml…
 
-1. open terminal or cmd
+1. Open Command Prompt by opening the Start Menu -> type "cmd" -> it should appear on the search results -> hit Enter.
 
-2. go to this RDPresskit folder
- (cd C:/Users/somethingsomething/rhythmdr.io/RDPresskit)
+2. go to this RDPresskit folder (cd C:/Users/somethingsomething/rhythmdr.io/RDPresskit) 
+You can look at the video on how you can go to the folder itself and copy the address straight from the Windows Explorer
 
 3. type:
  	presskit build -o ../
@@ -23,3 +42,4 @@ You should see a long many lines of processing in the console.
 5. If that looks good, use Github to sync it to the online version. And then when you load rhythmdr.com and click presskit, it should be all new
 ————
 if you have trouble just let me know on discord! it can be confusing for sure
+
