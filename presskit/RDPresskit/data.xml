@@ -160,11 +160,15 @@ Two friends, Hafiz Azman and Winston Lee, learnt game development solely driven 
 		</credit>
 		<credit>
 			<person>Giacomo Preciado</person>
-			<website>http://www.kyrie.pe</website>
+			<website>http://kyrie.pe</website>
 			<role>Programming</role>
 		</credit>
 		<credit>
 			<person>Alberto Gonzalez</person>
+			<role>Additional Programming</role>
+		</credit>
+		<credit>
+			<person>Jose Cahuana</person>
 			<role>Additional Programming</role>
 		</credit>
 		<credit>
