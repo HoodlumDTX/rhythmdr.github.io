@@ -46,65 +46,127 @@ function normalizedParabola(t)
 }
 
 
+var InvalidTime = -1
+var mFlashTime = InvalidTime
+var FlashDuration = 0.5
+
+function cameraDraw()
+{
+	if(mFlashTime == InvalidTime)
+		return
+
+	if(mFlashTime < FlashDuration)
+	{
+		mFlashTime += mDeltaTime
+		var t = mFlashTime / FlashDuration;
+		var f = (1 - t*t) 
+		drawRect(rect(0,0,mScreen.width, mScreen.height), rgba(255,255,255, f), rgba(0,0,0,0))
+	}
+	else
+	{
+		mFlashTime = InvalidTime
+	}
+
+}
+
+function flash()
+{
+	mFlashTime = 0
+}
+
 function logic()
 {
 	mGameTime += mDeltaTime;
-
-	// camera
-	var CameraSpeed = 200;
-	cameraPosition.x = mTime * CameraSpeed;
-	
-	// character
-	var FrameSpeed = 10;
-	var Frames = 4;
-	mCharacter.x = cameraPosition.x + 60;
-	mCharacter.frameColumn = Math.floor((mGameTime * FrameSpeed) % Frames) ;
-
-	// backgrounds
-	mBackgrounds.forEach(function(element) {
-    	element.logic();
-	});
-
-	mObstacles.forEach(function(element) {
-    	element.logic();
-	});
-
-	// score
-	mScore = Math.floor(mGameTime)
-
-	// input
 	var SpaceKey = 32
-	if(mKeyPressed == SpaceKey)
+
+	if(!mGameOver)
 	{
+		// camera
+		var CameraSpeed = 200;
+		cameraPosition.x = mTime * CameraSpeed;
+		
+		// character
+		mCharacter.fps = 10
+		var Frames = 4;
+		mCharacter.frameRow = 2;
+		mCharacter.x = cameraPosition.x + 60;
+		mCharacter.frameColumn = Math.floor((mGameTime * mCharacter.fps) % Frames) ;
+
+		// backgrounds
+		mBackgrounds.forEach(function(element) {
+	    	element.logic();
+		});
+
+		mObstacles.forEach(function(element) {
+	    	element.logic();
+		});
+
+		// score
+		mScore = Math.floor(mGameTime)
+
+		// input
+		
+		if(mKeyPressed == SpaceKey)
+		{
+			if(!mJumping)
+			{
+				mJumping = true
+				mJumpStart = mTime
+			}	
+		}
+
+		if(mJumping)
+		{
+			var jumpTimeElapsed = mTime - mJumpStart
+			if(jumpTimeElapsed > JumpTime)
+			{
+				mJumping = false;
+			}
+			else
+			{
+				mCharacter.y = CharacterY - normalizedParabola(jumpTimeElapsed / JumpTime) * JumpHeight
+			}
+		}
+		
 		if(!mJumping)
 		{
-			mJumping = true
-			mJumpStart = mTime
-		}	
-	}
-
-	if(mJumping)
-	{
-		var jumpTimeElapsed = mTime - mJumpStart
-		if(jumpTimeElapsed > JumpTime)
-		{
-			mJumping = false;
+			mCharacter.y = CharacterY	
 		}
-		else
+
+		checkCollisions()
+	}
+	else
+	{
+		// character
+		mCharacter.fps = 5
+		var Frames = 5;
+		mCharacter.frameRow = 0;
+		mCharacter.x = cameraPosition.x + 60;
+		mCharacter.frameColumn = Math.floor((mGameTime * mCharacter.fps) % Frames);
+
+		// input
+		if(mKeyPressed == SpaceKey)
 		{
-			mCharacter.y = CharacterY - normalizedParabola(jumpTimeElapsed / JumpTime) * JumpHeight
+			newGame()	
 		}
 	}
-	
-	if(!mJumping)
-	{
-		mCharacter.y = CharacterY	
-	}
-
 
 
 }
 
+function checkCollisions()
+{
+	for(var i = 0; i < mObstacles.length; i++)
+	{
+		var oRef = mObstacles[i]
+		if(isRectInsideRect(mCharacter.worldCollision(), oRef.worldCollision()))
+		{
+			showGameOver()
+			break;
+			
+		}
+	}
+}
 
 function draw()
 {	
@@ -118,6 +180,7 @@ function draw()
 
 	mCharacter.draw()
 
+
 	/*
 	drawText("score: " + mScore, 
 		vector2(100, 50), 
@@ -127,9 +190,19 @@ function draw()
 		Font
 	)
 	*/
+
+	cameraDraw();
+
+	if(!mGameOver)
+	{	
+		SetText("Score: " + mScore + "<br/>[Press SPACE to jump]<br/>")
+	}
 }
 
-
+function SetText(text)
+{
+	document.getElementById("score").innerHTML = text;
+}
 
 
 function setup()
@@ -159,7 +232,6 @@ function setup()
 			}
 		})(i, bg);
 		
-
 		mBackgrounds.push(bg)
 	}
 
@@ -172,44 +244,59 @@ function setup()
 	mCharacter.frameRow = 2;
 	mCharacter.frameColumn = 1;
 	mCharacter.scale = vector2(0.5, 0.5);
+	//mCharacter.drawCollision = true
+	mCharacter.collision = rect(0.21, 0.1, 0.53, 0.84)
 
 	// obstacles
-
 	for(var i = 0; i < 10; i++)
 	{
 		var obstacle = new Sprite("MrStevenson.png")
 		obstacle.x = (i + 2) * 400
 		obstacle.y = 54
-		obstacle.frameSize = vector2(40,40)
+		obstacle.frameSize = vector2(80,80)
+		obstacle.scale = vector2(0.5, 0.5)
+		//obstacle.drawCollision = true
+		obstacle.collision = rect(0.08, 0.2, 0.78, 0.64)
 
-		obstacle.logic = (function(n, bgRef)	{
+		obstacle.logic = (function(n, oRef)	{
 			return function () {
 				var distance = 400
-				bgRef.x = Math.floor(Math.floor(cameraPosition.x / distance + n) * distance)
+				oRef.x = Math.floor(Math.floor(cameraPosition.x / distance + n) * distance)
 			}
 		})(i, obstacle);
+
 
 		mObstacles.push(obstacle);
 	}
 }
 
-
-
-
-
-function newGame()
+function showGameOver()
 {
+	mGameOver = true
+	SetText("GAME OVER! - Score: " + mScore + "<br/>[Press SPACE to restart]<br/>")
+	mCharacter.y = CharacterY
+	flash()
+	setObstaclesVisible(false)
+
 	
 }
 
-
-
-function gameOver()
+function newGame()
 {
-
+	flash()
+	mGameOver = false;
+	cameraPosition.x = 0
+	mGameTime = 0
+	setObstaclesVisible(true)
 }
 
-
+function setObstaclesVisible(visible)
+{
+	for(var i = 0; i < mObstacles.length; i++)
+	{
+		mObstacles[i].visible = visible
+	}
+}
 
 // Debugging methods
 

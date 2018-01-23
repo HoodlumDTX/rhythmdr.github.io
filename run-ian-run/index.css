@@ -10,8 +10,13 @@ body
 	padding: 0px;
 	text-align: center;
 	background-color: black;
+	font-size: 20px;
 	color: white;
 	font-family: RDFont; 
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	image-rendering: pixelated;
+	image-rendering: crisp-edges;
 }
 
 .pixelated
@@ -30,13 +35,13 @@ body
 	color: #FFF;
 }
 
+.textAlign{
+	text-align: center;
+}
 a {
 	font-family: CM;
 	color: #2989BE;
 	text-decoration: none;
 }
 
-body {
-
-}
 

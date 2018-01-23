@@ -346,29 +346,55 @@ function Sprite(imageSrc)
 
 	this.x = 0
 	this.y = 0
-	this.width = 0
-	this.height = 0
 	this.frameRow = 0
 	this.frameColumn = 0
 	this.frameSize = vector2(10, 10)
 	this.scale = vector2(1,1)
+	this.fps = 0
+	this.frames = [0,0]
 
+	// collision
+	this.drawCollision = false
+	this.collision = rect(0,0,1,1)
+	this.worldCollision = function() {
+		
+		var width = this.frameSize.x * this.scale.x
+		var height = this.frameSize.y * this.scale.y
+		
+		return rect(	
+			Math.floor(this.x + width * this.collision.x), 
+			Math.floor(this.y + height * this.collision.y), 
+			this.collision.width * width,
+			this.collision.height * height
+		)
+	}
+
+	// image
 	this.imageLoaded = false
-
-
 	this.image = new Image()
 	this.image.src = imageSrc
 	this.image.onload = function() { 
 		myself.imageLoaded = true;
 	}
 
+	// rendering
+	this.visible = true
+
 	mSpriteList.push(this)
 	
+	this.internalUpdate = function()
+	{
+		if(fps != 0)
+		{
+
+		}
+	}
 
 	this.draw = function()
 	{
-		if(this.imageLoaded)
+		if(this.imageLoaded && this.visible)
 		{
+
 			drawImage(
 				this.image, 
 				rect(
@@ -382,7 +408,28 @@ function Sprite(imageSrc)
 					this.frameSize.x, 
 					this.frameSize.y)
 			)
+
+			if(this.drawCollision)
+			{
+				var coll = this.worldCollision();
+				coll.x -= cameraPosition.x;
+				coll.y -= cameraPosition.y;
+
+				drawRect(
+					coll,
+					rgba(255,0,0,0.5), 
+					rgba(0,255,0,0)
+				)
+			}
 		}
+	}
+
+	this.rect = function()
+	{
+		var rectA = rect(this.x, this.y, this.frameSize.x, this.frameSize.y)
+
+		//console.log("rect " + this.image.src + " x: " + rectA.x + " y:" + rectA.y + " width: " + rectA.width + " height: " + rectA.height)
+		return rectA;
 	}
 }
 
