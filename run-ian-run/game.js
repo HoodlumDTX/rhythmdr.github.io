@@ -106,7 +106,7 @@ function logic()
 
 		// input
 		
-		if(mKeyPressed == SpaceKey)
+		if(mKeyPressed == SpaceKey || mMouseDown == true)
 		{
 			if(!mJumping)
 			{
@@ -145,7 +145,7 @@ function logic()
 		mCharacter.frameColumn = Math.floor((mGameTime * mCharacter.fps) % Frames);
 
 		// input
-		if(mKeyPressed == SpaceKey)
+		if(mKeyPressed == SpaceKey || mMouseDown == true)
 		{
 			newGame()	
 		}

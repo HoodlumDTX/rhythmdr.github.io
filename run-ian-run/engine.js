@@ -1,14 +1,7 @@
 
 /*
 
-The Marriage
-
-Original game by Rod Humble
-http://www.rodvik.com/rodgames/marriage.html
-
-HTML Canvas port by Giacomo Preciado
-Game: kyrie.pe/the_marriage
-GitHub: https://github.com/giacomopc/the-marriage 
+A Ian minigame by 7th Beat Games!
 
 */
 
@@ -27,6 +20,7 @@ var mDeltaTime
 var mTimeScale = 1
 
 var mMousePosition = InvalidMousePosition
+var mMouseDown = false
 var mMouseClicked = false
 var mMouseMoved = false
 var mKeyPressed = InvalidKey
@@ -95,6 +89,11 @@ function engineStart()
 	mCanvas.onclick = function(event)
 	{
 		mMouseClicked = true
+	}
+
+	mCanvas.onmousedown = function(event)
+	{
+		mMouseDown = true
 	}
 
 	mCanvas.onmouseout = function(event)
@@ -188,6 +187,7 @@ function lateLogic()
 {
 	mMouseClicked = false
 	mMouseMoved = false
+	mMouseDown = false
 	mKeyPressed = InvalidKey
 }
 
