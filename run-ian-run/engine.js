@@ -86,15 +86,21 @@ function engineStart()
 		mMouseMoved = true
 	}
 
-	mCanvas.onclick = function(event)
+	document.onclick = function(event)
 	{
 		mMouseClicked = true
 	}
 
-	mCanvas.onmousedown = function(event)
+	document.onmousedown = function(event)
 	{
 		mMouseDown = true
 	}
+
+	document.ontouchstart = function(event)
+	{
+		mMouseDown = true
+	}
+
 
 	mCanvas.onmouseout = function(event)
 	{
