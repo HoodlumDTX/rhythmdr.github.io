@@ -1,0 +1,42 @@
+@font-face
+{
+	font-family: "RDFont";
+	src: url(RDFont.ttf);		
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-family: RDFont; 
+}
+
+.pixelated
+{
+	image-rendering: pixelated;
+	display: inline;	
+}
+
+.container
+{
+	text-align: center;
+}
+
+.texto {
+	font-family: CM;
+	color: #FFF;
+}
+
+a {
+	font-family: CM;
+	color: #2989BE;
+	text-decoration: none;
+}
+
+body {
+
+}
+
