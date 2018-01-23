@@ -52,7 +52,7 @@ function logic()
 
 	// camera
 	var CameraSpeed = 200;
-	cameraPosition.x += mDeltaTime * CameraSpeed;
+	cameraPosition.x = mTime * CameraSpeed;
 	
 	// character
 	var FrameSpeed = 10;
