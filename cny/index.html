@@ -14,6 +14,8 @@
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/cny.json", {onProgress: UnityProgress});
     </script>
+
+    <script src="index.js"></script>
   </head>
 <body>
 <br/><br/>
@@ -30,7 +32,8 @@
 
 <div class="centerDiv">
 
-Use spacebar to start the game and play, and press it on the seventh beat!
+Use spacebar to start the game and play, and press it on the seventh beat!<br>
+Press R to restart the level.
 <br>
 <br>
 <a href="#" style="color:yellow" onclick="gameInstance.SetFullscreen(1)">Click here for fullscreen</a> 

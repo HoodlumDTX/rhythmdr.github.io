@@ -1,5 +1,21 @@
 var timeStarted = getTime()
 
+document.ontouchstart = function(event)
+{
+	var e = new KeyboardEvent('keydown',{'keyCode':32,'which':32});
+	document.dispatchEvent(e);
+}
+
+document.onmousedown = function(event)
+{
+	var e = new KeyboardEvent('keydown',{'keyCode':32,'which':32});
+	document.dispatchEvent(e);
+}
+
+document.addEventListener('keydown', function(ev){
+  console.log("space pressed: " + ev.keyCode);
+});
+
 window.requestAnimFrame = (function(){
   return  window.requestAnimationFrame       ||
           window.webkitRequestAnimationFrame ||
@@ -10,7 +26,8 @@ window.requestAnimFrame = (function(){
 })();
 
 
-(function animloop(){
+(
+function animloop(){
   requestAnimFrame(animloop);  
   render();
 })();
@@ -19,6 +36,8 @@ var pulseScale = 0.0
 
 function render()
 {
+	
+
 	// headbobbing
 	var frequency = 1.0/65.0*60.0;
 	var bobTime = 0.2;
