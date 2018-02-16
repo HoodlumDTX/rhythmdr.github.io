@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Rhythm Doctor</title>
+    <link rel="stylesheet" type="text/css" href="../style_main.css">
+    <link rel="stylesheet" type="text/css" href="../style_latin.css">
+    <link rel="shortcut icon" href="../images/favicon.png" />
+
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/cny.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+<body>
+<br/><br/>
+
+<!-- logo and subtitle -->
+<a href="http://rhythmdr.com"><img id="logo" class="pixelPerfect pulse" width="290" src="../images/animated_logo.gif"/></a>
+<br/><br/>
+
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 704px; height: 396px; image-rendering: pixelated;"></div>
+    </div>
+
+<br/><br/>
+
+<div class="centerDiv">
+
+Use spacebar to start the game and play, and press it on the seventh beat!
+<br>
+<br>
+<a href="#" style="color:yellow" onclick="gameInstance.SetFullscreen(1)">Click here for fullscreen</a> 
+<br>
+<br>
+
+</div>
+
+<div class="pulseBox pixelPerfect"></div>
+<pre style="font-family: rd">
+Rhythm Doctor by 7th Beat Games
+Music & Level Design: Ladybug
+Translations: Satellite and Zisos
+</pre>
+
+</body>
+</html>
