@@ -1,0 +1,14 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "rdwebgl6.data.unityweb",
+"wasmCodeUrl": "rdwebgl6.wasm.code.unityweb",
+"wasmFrameworkUrl": "rdwebgl6.wasm.framework.unityweb",
+"asmCodeUrl": "rdwebgl6.asm.code.unityweb",
+"asmMemoryUrl": "rdwebgl6.asm.memory.unityweb",
+"asmFrameworkUrl": "rdwebgl6.asm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "rdwebgl6.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF"
+}
