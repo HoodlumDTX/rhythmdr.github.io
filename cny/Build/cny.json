@@ -1,0 +1,14 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "cny.data.unityweb",
+"wasmCodeUrl": "cny.wasm.code.unityweb",
+"wasmFrameworkUrl": "cny.wasm.framework.unityweb",
+"asmCodeUrl": "cny.asm.code.unityweb",
+"asmMemoryUrl": "cny.asm.memory.unityweb",
+"asmFrameworkUrl": "cny.asm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "cny.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF"
+}
