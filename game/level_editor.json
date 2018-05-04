@@ -61,6 +61,14 @@
 		"url" : "",
 		"showCustomMessage" : false,
 		"customMessage" : {},
+	},
+
+		"19" :
+	{
+		"locked": false,
+		"url" : "",
+		"showCustomMessage" : false,
+		"customMessage" : {},
 	}
 
 }
