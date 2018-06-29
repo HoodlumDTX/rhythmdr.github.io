@@ -1,0 +1,20 @@
+EXTERNAL multiply(x,y)
+EXTERNAL flash()
+EXTERNAL moveChar(charName, x, y, duration)
+EXTERNAL setColor(r, g, b, a)
+EXTERNAL setSpeed(timePerChar)
+
+=== function multiply(x,y) ===
+~ return 999
+
+=== function flash() ===
+~ return "" 
+
+=== function moveChar(charName, x, y, duration) ===
+~ return "" 
+
+=== function setColor(r, g, b, a) ===
+~ return ""
+
+=== function setSpeed(timePerChar) ===
+~ return ""

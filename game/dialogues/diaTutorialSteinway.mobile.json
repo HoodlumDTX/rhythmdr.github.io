@@ -1,0 +1,152 @@
+[
+	{
+		"title": "NoMusic",
+		"tags": "",
+		"body": "Well, here we are.\nTime for your final case for the day.",
+		"position": {
+			"x": 53,
+			"y": 55
+		},
+		"colorID": 0
+	},
+	{
+		"title": "OnMusic",
+		"tags": "",
+		"body": "Today you'll treat a patient with <color=#03EBF5>heart block</color>.\nTheir heartbeats are regularly irregular. \nIt's not life-threatening.\nBut it just makes treating them a little spicier.\nHere we go.",
+		"position": {
+			"x": 466,
+			"y": 73
+		},
+		"colorID": 0
+	},
+		{
+		"title": "FirstMissCompletely",
+		"tags": "",
+		"body": "Hey, don't fall asleep!",
+		"position": {
+			"x": 466,
+			"y": 73
+		},
+		"colorID": 0
+	},
+		{
+		"title": "Nurse",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 693,
+			"y": 95
+		},
+		"colorID": 0
+	},
+	{
+		"title": "FirstHitPerfect",
+		"tags": "",
+		"body": "Wow first time.",
+		"position": {
+			"x": 939,
+			"y": 525
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Phase1.1Hit",
+		"tags": "",
+		"body": "Good.",
+		"position": {
+			"x": 1163,
+			"y": 15
+		},
+		"colorID": 6
+	},
+		{
+		"title": "Phase1.2Hit",
+		"tags": "",
+		"body": "Great.",
+		"position": {
+			"x": 1163,
+			"y": 15
+		},
+		"colorID": 6
+	},
+		{
+		"title": "Phase1.3Hit",
+		"tags": "",
+		"body": "Perfect.",
+		"position": {
+			"x": 1163,
+			"y": 15
+		},
+		"colorID": 6
+	},
+			{
+		"title": "Phase1.4Hit",
+		"tags": "",
+		"body": "Superb.",
+		"position": {
+			"x": 1163,
+			"y": 15
+		},
+		"colorID": 6
+	},
+			{
+		"title": "Phase1.5Hit",
+		"tags": "",
+		"body": "Ooh!",
+		"position": {
+			"x": 1163,
+			"y": 15
+		},
+		"colorID": 6
+	},
+	{
+		"title": "Interlude1",
+		"tags": "",
+		"body": "Simple enough!\nNow let's do the case where the seventh lands on a blocked beat..",
+		"position": {
+			"x": 1188,
+			"y": 531
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Phase2.1Hit",
+		"tags": "",
+		"body": "Nice transitions.",
+		"position": {
+			"x": 936,
+			"y": 315
+		},
+		"colorID": 0
+	},
+		{
+		"title": "Phase2MissAlmost",
+		"tags": "",
+		"body": "Ah! You almost had it.",
+		"position": {
+			"x": 936,
+			"y": 315
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Interlude2",
+		"tags": "",
+		"body": "Scrumptious!\nNow, for this next case..\n we're dealing with five patients.\nDon't worry, I'll accompany you.\n See you in the ER.",
+		"position": {
+			"x": 256,
+			"y": 66
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Interlude2NoMisses",
+		"tags": "",
+		"body": "Scrumptious!\nAnd no misses too.\nYou got the hang of it quickly.\nNow, for this next case..\n we're dealing with five patients.\nDon't worry, I'll accompany you.\n See you in the ER.",
+		"position": {
+			"x": 256,
+			"y": 66
+		},
+		"colorID": 0
+	}
+]

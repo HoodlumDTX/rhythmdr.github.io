@@ -1,0 +1,142 @@
+[
+	{
+		"title": "NoMusic",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 53,
+			"y": 55
+		},
+		"colorID": 0
+	},
+	{
+		"title": "OnMusic",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 466,
+			"y": 73
+		},
+		"colorID": 0
+	},
+		{
+		"title": "Nurse",
+		"tags": "",
+		"body": "dont show this",
+		"position": {
+			"x": 693,
+			"y": 95
+		},
+		"colorID": 0
+	},
+	{
+		"title": "FirstMiss",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 930,
+			"y": 108
+		},
+		"colorID": 6
+	},
+		{
+		"title": "FirstMissCompletely",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 930,
+			"y": 108
+		},
+		"colorID": 6
+	},
+			{
+		"title": "FirstMissAfterMissCompletely",
+		"tags": "",
+		"body": "You're closer now. Remember the slight delay and slam your spacebar HARD!",
+		"position": {
+			"x": 930,
+			"y": 108
+		},
+		"colorID": 6
+	},
+	{
+		"title": "FirstHitPerfect",
+		"tags": "",
+		"body": "Wow",
+		"position": {
+			"x": 939,
+			"y": 525
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Phase1.1Hit",
+		"tags": "",
+		"body": "I",
+		"position": {
+			"x": 1163,
+			"y": 15
+		},
+		"colorID": 6
+	},
+		{
+		"title": "Phase1.2Hit",
+		"tags": "",
+		"body": "hope",
+		"position": {
+			"x": 1163,
+			"y": 15
+		},
+		"colorID": 6
+	},
+		{
+		"title": "Phase1.3Hit",
+		"tags": "",
+		"body": "you",
+		"position": {
+			"x": 1163,
+			"y": 15
+		},
+		"colorID": 6
+	},
+			{
+		"title": "Phase1.4Hit",
+		"tags": "",
+		"body": "stay",
+		"position": {
+			"x": 1163,
+			"y": 15
+		},
+		"colorID": 6
+	},
+			{
+		"title": "Phase1.5Hit",
+		"tags": "",
+		"body": "with",
+		"position": {
+			"x": 1163,
+			"y": 15
+		},
+		"colorID": 6
+	},
+	{
+		"title": "Interlude1",
+		"tags": "",
+		"body": "us - alright that's it.\nToday it's another caffeine addiction case.\nHe's a barista.\nHe really shouldn't be.\nWe're also running low on staff today..\n..so you might have your hands a little full.\nWell, good luck!",
+		"position": {
+			"x": 1188,
+			"y": 531
+		},
+		"colorID": 0
+	},
+		{
+		"title": "Interlude1Perfect",
+		"tags": "",
+		"body": "us because wow no misses.\nTalent like you..\n ..shouldn't waste time with patient backstories.\nJust breeze through this one like you do.\nI'll be back later.",
+		"position": {
+			"x": 1188,
+			"y": 531
+		},
+		"colorID": 0
+	}
+]
